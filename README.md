@@ -23,40 +23,27 @@ if targeting IE7: http://modernizr.com/download/
 3. Once the 'js' and 'css' folders are copied, the following 
 JavaScript and CSS references are recommended in this order:
 
-    
-    <!--Infragistics Theme-->
-    <link href="css/themes/infragistics/infragistics.theme.css" rel="stylesheet" type="text/css" />	
-    <!--Structure CSS-->
-    <link href="css/structure/infragistics.css" rel="stylesheet" type="text/css" />
-    <!--jQuery from CDN-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js" type="text/javascript"></script>
-    <!--jQuery UI from CDN-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.js" type="text/javascript"></script>
-    <!--Modernizr from CDN. For css-boxsizing support build a custom version here: http://modernizr.com/download/-->
-    <script src="http://www.modernizr.com/downloads/modernizr-latest.js" type="text/javascript"></script>  
-    <!--igniteUI Combined JavaScript-->
-    <script src="js/infragistics.js" type="text/javascript"></script>
 
+    <link href="css/themes/infragistics/infragistics.theme.css" rel="stylesheet" type="text/css" />	
+    <link href="css/structure/infragistics.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.js" type="text/javascript"></script>
+    <script src="http://www.modernizr.com/downloads/modernizr-latest.js" type="text/javascript"></script>  
+    <script src="js/infragistics.js" type="text/javascript"></script>
 
 
 4. Alternatively Infragistics loader can be used to load only necessary resources.
 If that is the choice that is made for your application, instead of placing Infragistics references from above,
 only the following are required:
 
+
     <head>
-    <!--jQuery from CDN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js" type="text/javascript"></script>
-    
-    <!--jQuery UI from CDN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.js" type="text/javascript"></script>
-    
-    <!--Modernizr from CDN. For css-boxsizing support build a custom version here: http://modernizr.com/download/-->
     <script src="http://www.modernizr.com/downloads/modernizr-latest.js" type="text/javascript"></script>
-    
-    <!--IgniteUI resources loader-->
     <script src="js/infragistics.loader.js" type="text/javascript"></script>
     </head>
-    
+
 
 To request necessary resources, which include CSS and JavaScript files. The following code may be used:
 
