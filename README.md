@@ -3,6 +3,11 @@ Ignite-UI-2012-POC
 
 Proof of Concept using Ignite UI 2012
 -------------------------------------
+
+
+    git add . ; git commit -m " my comment " ; git push -u origin master
+    
+
 IgniteUI(TM) 2012 Volume 2 
 ========================== 
 
