@@ -16,12 +16,15 @@ IgniteUI(TM) 2012 Volume 2
 Getting Started with JavaScript and CSS
 --------------------------------------- 
 
-1. Copy the 'js' and 'css' folders to your website.	
-2. jQuery, jQuery UI, and Modernizr are required to use igniteUI.
+Copy the 'js' and 'css' folders to your website.	
+
+jQuery, jQuery UI, and Modernizr are required to use igniteUI.
+
 Modernizr needs to be of a custom build with css-boxsizing enabled
+
 if targeting IE7: http://modernizr.com/download/
-3. Once the 'js' and 'css' folders are copied, the following 
-JavaScript and CSS references are recommended in this order:
+
+Once the 'js' and 'css' folders are copied, the following JavaScript and CSS references are recommended in this order:
 
 
     <link href="css/themes/infragistics/infragistics.theme.css" rel="stylesheet" type="text/css" />	
@@ -32,7 +35,8 @@ JavaScript and CSS references are recommended in this order:
     <script src="js/infragistics.js" type="text/javascript"></script>
 
 
-4. Alternatively Infragistics loader can be used to load only necessary resources.
+
+Alternatively Infragistics loader can be used to load only necessary resources.
 If that is the choice that is made for your application, instead of placing Infragistics references from above,
 only the following are required:
 
@@ -43,6 +47,7 @@ only the following are required:
     <script src="http://www.modernizr.com/downloads/modernizr-latest.js" type="text/javascript"></script>
     <script src="js/infragistics.loader.js" type="text/javascript"></script>
     </head>
+
 
 
 To request necessary resources, which include CSS and JavaScript files. The following code may be used:
@@ -60,9 +65,8 @@ To request necessary resources, which include CSS and JavaScript files. The foll
     </script>
     
 
-****************************************************************
 
-Note: 
+**Note:** 
 	For more information on using JavaScript and CSS with 
 	IgniteUI, see: [http://help.infragistics.com/*](http://help.infragistics.com/*) 
 
