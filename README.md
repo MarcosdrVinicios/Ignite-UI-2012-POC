@@ -68,7 +68,7 @@ To request necessary resources, which include CSS and JavaScript files. The foll
 
 **Note:** 
 	For more information on using JavaScript and CSS with 
-	IgniteUI, see: [http://help.infragistics.com/*](http://help.infragistics.com/*) 
+	IgniteUI, see: [http://help.infragistics.com/](http://help.infragistics.com/) 
 
 
 Copyright 2011-2012 Infragistics, Inc. All rights reserved.
